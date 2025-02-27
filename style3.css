@@ -1,0 +1,60 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(BG.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 250vh;
+}
+
+.judul{
+    width: 250px;
+    height: 380px;   
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 150px;
+    left: 525px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.judul h2{
+    width: 220px;
+    font-family: 'Poppins';
+    text-align: center;
+    color: #B5828C;
+    font-size: 22px;
+    background-color: #F8F3D9;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.cn{
+    width: 240px;
+    height: 40px;
+    background: #B5828C;
+    border: none;
+    margin-top: 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #F8F3D9;
+    transition: 0.4s ease;
+}
+
+.cn:hover{
+    background: #F8F3D9;
+    color: #B5828C;
+}
+
+.cn a{
+    text-decoration: none;
+    color: #000;
+}
